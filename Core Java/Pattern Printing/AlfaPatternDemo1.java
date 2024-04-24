@@ -1,7 +1,7 @@
-public class PatternDemo2 {
+public class AlfaPatternDemo1 {
     public static void main(String[] args) {
-        for(int i =1;i<=5;i++){
-            for(int j = 1;j<=5;j++){
+        for(char i = 'A';i<='E';i++){
+            for(char j='A';j<='E';j++){
                 System.out.print(i);
             }
             System.out.println();
