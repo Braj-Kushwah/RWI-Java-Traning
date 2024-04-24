@@ -1,8 +1,8 @@
-public class NumPatternDemo7 {
+public class NumPatternDemo8 {
     public static void main(String[] args) {
-        for(int i =1;i<=5;i++){
+        for(int i =5;i>=1;i--){
             for(int j=1;j<=5;j++){
-                if(i%2==0){
+                if(i % 2==0){
                     System.out.print(j);
                 }else{
                     System.out.print(i);
