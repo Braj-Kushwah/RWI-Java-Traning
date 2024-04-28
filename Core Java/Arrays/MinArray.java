@@ -20,5 +20,7 @@ public class MinArray {
             a[i] = sc.nextInt();
         }
         System.out.println("Min of the array is : " +findMin(a, n));
+
+        sc.close();
     }
 }

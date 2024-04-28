@@ -12,5 +12,7 @@ public class NoOfTimeAppears {
             }
         }
         System.out.println("The no of time "+count);
+
+        sc.close();
     }
 }

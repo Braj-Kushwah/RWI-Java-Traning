@@ -21,5 +21,7 @@ public class  MaxArray{
             a[i] = sc.nextInt();
         }
         System.out.println("Max arrys is : "+findMax(a, n));
+
+        sc.close();
     }
 }

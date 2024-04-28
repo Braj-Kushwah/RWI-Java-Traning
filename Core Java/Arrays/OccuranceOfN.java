@@ -19,5 +19,7 @@ public class OccuranceOfN {
             }
         }
         System.out.println("The occu is : "+res);
+
+        sc.close();
     }
 }
