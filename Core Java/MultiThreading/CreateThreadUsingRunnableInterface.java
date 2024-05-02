@@ -1,4 +1,4 @@
-import javax.xml.namespace.QName;
+
 
 public class CreateThreadUsingRunnableInterface implements Runnable {
 

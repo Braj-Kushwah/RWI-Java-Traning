@@ -14,5 +14,7 @@ public class Palindrome {
             rev += str.charAt(i);
         }
         System.out.println("is string palindrom : "+isPalindrom(str, rev));
+
+        sc.close();
     }
 }
