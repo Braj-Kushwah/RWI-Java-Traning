@@ -16,6 +16,6 @@ public class InterruptedMeth extends Thread{
     public static void main(String[] args) {
         InterruptedMeth t = new InterruptedMeth();
         t.start();
-        t.interrupted();
+        Thread.interrupted();
     }
 }
