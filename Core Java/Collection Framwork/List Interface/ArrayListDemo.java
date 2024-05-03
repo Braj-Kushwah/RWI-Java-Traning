@@ -7,40 +7,39 @@ public class ArrayListDemo {
 
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public static void main(String[] args) {
-        ArrayList a = new ArrayList();
+        ArrayList al = new ArrayList();
 
         // add() method
-        a.add("A");
-        a.add(10);
-        a.add("A");
-        a.add(null);
-        System.out.println("Array list :"+a);
+        al.add("A");
+        al.add(10);
+        al.add("A");
+        al.add(null);
+        System.out.println("Array list :"+al);
 
         //get() method
-        System.out.println(a.get(1));
+        System.out.println(al.get(1));
 
         //remove() method
-        a.remove(2);
-        System.out.println(a);
+        al.remove(2);
+        System.out.println(al);
 
-        a.add(2,"B");
-        System.out.println(a);
+        al.add(2,"B");
+        System.out.println(al);
 
-        a.add("N");
-        a.add(5.5);
-        a.add("A");
-        System.out.println(a);
+        al.add("N");
+        al.add(5.5);
+        al.add("A");
+        System.out.println(al);
 
         //set()
-        a.set(3,"C");
-        System.out.println(a);
+        al.set(3,"C");
+        System.out.println(al);
 
         //indexOf()
-        System.out.println(a.indexOf("N"));
+        System.out.println(al.indexOf("N"));
 
         //lastIndexOf()
-        System.out.println(a.lastIndexOf("A"));
+        System.out.println(al.lastIndexOf("A"));
 
-        System.out.println("List Iterator :"+a.listIterator());
     }
 }

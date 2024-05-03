@@ -3,41 +3,41 @@ import java.util.LinkedList;
 public class LinkedListDemo {
     @SuppressWarnings({ "rawtypes", "unchecked" })
     public static void main(String[] args) {
-        LinkedList l=new LinkedList();
+        LinkedList ll=new LinkedList();
 
         //add()
-        l.add("Brajesh");
-        l.add("kushwah");
-        l.add("knw");
-        l.add(null);
-        l.add(null);
-        System.out.println(l);
+        ll.add("Brajesh");
+        ll.add("kushwah");
+        ll.add("knw");
+        ll.add(null);
+        ll.add(null);
+        System.out.println(ll);
 
         //set()
-        l.set(4,"hello");
-        System.out.println(l);
+        ll.set(4,"hello");
+        System.out.println(ll);
 
-        l.set(0,"Braj");
-        System.out.println(l);
+        ll.set(0,"Braj");
+        System.out.println(ll);
 
         //get(),getFirst(),getLast()
-        System.out.println(l.get(4));
-        System.out.println(l.getFirst());
-        System.out.println(l.getLast());
+        System.out.println(ll.get(4));
+        System.out.println(ll.getFirst());
+        System.out.println(ll.getLast());
 
         //remove(), removeFirst(), removelast()
-        l.remove(4);
-        System.out.println(l);
-        l.removeLast();
-        System.out.println(l);
-        l.removeFirst();
-        System.out.println(l);
+        ll.remove(4);
+        System.out.println(ll);
+        ll.removeLast();
+        System.out.println(ll);
+        ll.removeFirst();
+        System.out.println(ll);
 
         //addFirst(),addLast()
-        l.addFirst("kushwah");
-        System.out.println(l);
+        ll.addFirst("I am");
+        System.out.println(ll);
 
-        l.addLast("Engineer");
-        System.out.println(l);
+        ll.addLast("Engineer");
+        System.out.println(ll);
     }
 }
