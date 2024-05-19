@@ -14,14 +14,13 @@
 			<property name = "hbm2ddl.auto">create</property>
 			<property name = "show_sql">true</property>
 			<property name = "format_sql">true</property>
-			<mapping class = "com.Hibernate.SecobdHib.App"/>
-			<mapping class = "com.Hibernate.SecobdHib.StudentBean"/>
-			
-			<mapping class = "com.Hibernate.ImageUploadInHib.App"/>
-			<mapping class = "com.Hibernate.ImageUploadInHib.Employee"/>
 
-			<mapping class = "com.Hibernate.EmbaddedAnnotation.App"/>
-			<mapping class = "com.Hibernate.EmbaddedAnnotation.Bank"/>
-			<mapping class = "com.Hibernate.EmbaddedAnnotation.Employees"/>
+			<mapping class = "com.OneTwoOne.App"/>
+			<mapping class = "com.OneTwoOne.Bank"/>
+			<mapping class = "com.OneTwoOne.User"/>
+
+			<mapping class = "com.ManyTwoMany.App"/>
+			<mapping class = "com.ManyTwoMany.Employee"/>
+			<mapping class = "com.ManyTwoMany.Project"/>
 		</session-factory>
 	</hibernate-configuration>

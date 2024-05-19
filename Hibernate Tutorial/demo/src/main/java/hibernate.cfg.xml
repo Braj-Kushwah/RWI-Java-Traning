@@ -16,7 +16,12 @@
 			<property name = "format_sql">true</property>
 			<mapping class = "com.Hibernate.SecobdHib.App"/>
 			<mapping class = "com.Hibernate.SecobdHib.StudentBean"/>
+			
 			<mapping class = "com.Hibernate.ImageUploadInHib.App"/>
 			<mapping class = "com.Hibernate.ImageUploadInHib.Employee"/>
+
+			<mapping class = "com.Hibernate.EmbaddedAnnotation.App"/>
+			<mapping class = "com.Hibernate.EmbaddedAnnotation.Bank"/>
+			<mapping class = "com.Hibernate.EmbaddedAnnotation.Employees"/>
 		</session-factory>
 	</hibernate-configuration>
