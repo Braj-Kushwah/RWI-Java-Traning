@@ -1,0 +1,26 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xmlns:p="http://www.springframework.org/schema/p"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  https://www.springframework.org/schema/beans/spring-beans.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+
+    <bean class="com.demo.Address" name="address">
+        <property name="pincode" value="450337"/>
+        <property name="state" value="Madhya Pradesh"/>
+        <property name="city" value="Pandhana"/>
+
+    </bean>
+
+    <bean class="com.demo.Employee" name="emp1" autowire="byName">
+        <property name="id" value="5" />
+        <property name="name" value="Braj" />
+        <property name="mobileNumber" value="7987433392"/>
+    </bean>
+  </beans>
